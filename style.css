@@ -1,0 +1,22 @@
+html{
+    background-color: aqua;
+}
+.wrapper{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+.center {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-device-width: 480px) {
+    .wrapper{
+        position: absolute; 
+        top: 30%;
+        left: 30%;
+        /* background-color: lime; */
+    }   
+}
